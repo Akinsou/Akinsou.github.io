@@ -1,0 +1,17 @@
+:root
+{
+    background-color: black;
+    background-image: url("images/spiderman.jpg");
+    background-repeat: repeat;
+    color: red;
+}
+@font-face
+{
+    font-family: Arvo-Bold;
+    src: url("css/fonts/Arvo-Bold.ttf")
+}
+h1
+{
+    font-family:Montserrat-Black;
+    src: url("css/fonts/Montserrat-Black.ttf")
+}
