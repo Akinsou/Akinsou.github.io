@@ -3,7 +3,7 @@
     background-color: black;
     background-image: url("images/spiderman.jpg");
     background-repeat: repeat;
-    color: red;
+    color: white;
 }
 @font-face
 {
@@ -14,4 +14,14 @@ h1
 {
     font-family:Montserrat-Black;
     src: url("css/fonts/Montserrat-Black.ttf")
+}
+table tr th,td
+{
+    border: 2px solid gray;
+}
+td img
+{
+    display:block;
+    width: 100px;
+    height: 100px;
 }
