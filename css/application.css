@@ -3,31 +3,67 @@
     background-color: black;
     background-image: url("images/spiderman.jpg");
     background-repeat: repeat;
-    color: white;
+    color: yellow;
 }
 @font-face
 {
     font-family: Arvo-Bold;
-    src: url("css/fonts/Arvo-Bold.ttf");
+    src: url("css/fonts/Arvo-Bold.ttf")
 }
-h1
+@font-face
 {
     font-family:Montserrat-Black;
-    src: url("css/fonts/Montserrat-Black.ttf");
-    margin:auto;margin-left: 100px;
-    margin-right: 100px;
+    src: url("css/fonts/Montserrat-Black.ttf")
+    
+}  
+h1
+{
+    font-family:Arvo-Bold;
     text-align: center;
-}        
+    font-size: 42pt;
+    margin: 15px;
+}  
+h2
+{
+    font-family:Montserrat-Black;
+    text-align: center;
+    font-size: 32pt;
+    margin: 15px;
+} 
+li h3
+{
+    text-align:center;
+    list-style-type:lower-greek;
+}  
+#solo
+{
+    text-align:center;
+    
+} 
 table tr th,td
 {
     border: 2px solid gray;
-    margin: auto;
+    
+}
+table
+{
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 25px;
+    margin-bottom:25px;
 }
 td img
 {
     display:block;
-    width: 100px;
-    height: 100px;
+    width: 10vw;
+    
+}
+td, th
+{
+    font-size: 20px;
+    color: green;
+    margin:auto;
+
 }
 nav
 {
@@ -38,18 +74,46 @@ nav
     margin: auto;
    
 }
+nav li
+{
+    list-style-type: none;
+    margin: 0px;
+}
 ul img
 {
-    height: 200px;
-    width:200px;
-    display:right;
-    clear:left;
+    height: 65%;
+    
+    float:right;
+    color: rosybrown;
+    float:right;
+    
     
 }
 #img
 {
-    height: 200px;
-    width:200px;
-    display:right;
-    clear:left;
+    background-color: black;
+   width:92vw;
+   height: 300px;
+   float:right;
+   color: rosybrown;
+    
+}
+ol li
+{
+    
+    font-size: 16pt;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+a
+{
+    
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+p
+{
+    font-size:larger;
+    color:rgba(78, 140, 69, 0.782);
 }
