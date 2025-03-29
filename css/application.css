@@ -8,20 +8,48 @@
 @font-face
 {
     font-family: Arvo-Bold;
-    src: url("css/fonts/Arvo-Bold.ttf")
+    src: url("css/fonts/Arvo-Bold.ttf");
 }
 h1
 {
     font-family:Montserrat-Black;
-    src: url("css/fonts/Montserrat-Black.ttf")
-}
+    src: url("css/fonts/Montserrat-Black.ttf");
+    margin:auto;margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}        
 table tr th,td
 {
     border: 2px solid gray;
+    margin: auto;
 }
 td img
 {
     display:block;
     width: 100px;
     height: 100px;
+}
+nav
+{
+    
+    border: 1px rgb(200, 200, 200) solid;
+    text-align: center;
+    width: 92vh;
+    margin: auto;
+   
+}
+ul img
+{
+    height: 200px;
+    width:200px;
+    display:right;
+    clear:left;
+    
+}
+#img
+{
+    height: 200px;
+    width:200px;
+    display:right;
+    clear:left;
 }
