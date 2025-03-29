@@ -3,7 +3,7 @@
     background-color: black;
     background-image: url("images/spiderman.jpg");
     background-repeat: repeat;
-    color: yellow;
+    color: rgb(255, 0, 0);
 }
 @font-face
 {
@@ -114,6 +114,8 @@ a
 }
 p
 {
+    font-family:Montserrat-Black;
+    text-align:justify;
     font-size:larger;
     color:rgba(78, 140, 69, 0.782);
 }
