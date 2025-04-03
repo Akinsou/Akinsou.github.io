@@ -1,0 +1,39 @@
+ :root
+ {
+    background-color:rgb(15,200,185);
+ }
+ @font-face {
+    font-family:Montserrat-Black;
+    src: url("fonts/Montserrat-Black.ttf")
+ }
+ @font-face
+{
+    font-family: Arvo-Bold;
+    src: url("fonts/Arvo-Bold.ttf")
+}
+ img
+ {
+    width:75vw;
+    height:75vh;
+    opacity:0.5;
+    filter:brightness(100)contrast(80)grayscale(25);
+ }
+ #notforthisone
+ {
+    width:80px;
+    height: 50px;
+ }
+ table img
+ {
+    height :100px;
+    display: block;
+    margin: auto;
+ }
+ a:hover
+ {
+    background-color: gold;
+ }
+ h1
+ {
+ font-family: Arvo-Bold;
+ }

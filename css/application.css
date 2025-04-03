@@ -8,12 +8,12 @@
 @font-face
 {
     font-family: Arvo-Bold;
-    src: url("css/fonts/Arvo-Bold.ttf")
+    src: url("fonts/Arvo-Bold.ttf")
 }
 @font-face
 {
     font-family:Montserrat-Black;
-    src: url("css/fonts/Montserrat-Black.ttf")
+    src: url("fonts/Montserrat-Black.ttf")
     
 }  
 h1
