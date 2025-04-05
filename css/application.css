@@ -30,10 +30,11 @@ h2
     font-size: 32pt;
     margin: 15px;
 } 
-li h3
+li h3, li h4
 {
     text-align:center;
-    list-style-type:lower-greek;
+    list-style-type:none;
+    margin:0px;
 }  
 #solo
 {
@@ -81,21 +82,29 @@ nav li
 }
 ul img
 {
-    height: 65%;
+   
+    height: 75%;
+    width:30vw;
     
-    float:right;
-    color: rosybrown;
-    float:right;
+    
+    
     
     
 }
+li p
+{
+    font-size:10px;
+    display:inline-block;
+    margin-right:500px;
+}
 #img
 {
-    background-color: black;
-   width:92vw;
+   display:block;
+   background-color: black;
+   width:75vw;
    height: 300px;
-   float:right;
-   color: rosybrown;
+   
+   
     
 }
 ol li
@@ -118,4 +127,10 @@ p
     text-align:justify;
     font-size:larger;
     color:rgba(78, 140, 69, 0.782);
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.linkreturn
+{
+    margin:auto;
 }

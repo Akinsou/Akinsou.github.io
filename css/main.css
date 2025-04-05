@@ -11,12 +11,33 @@
     font-family: Arvo-Bold;
     src: url("fonts/Arvo-Bold.ttf")
 }
+table, th, td 
+{ 
+   border: 2px solid gray; 
+} 
+p
+{
+   font-family:Montserrat-Black;
+   font-size:smaller;
+   color:black;
+   margin:auto;
+   background-color: #f5f5dc;
+
+   margin-top:10px;
+    margin-bottom:10px;
+}
  img
  {
-    width:75vw;
-    height:75vh;
-    opacity:0.5;
-    filter:brightness(100)contrast(80)grayscale(25);
+    width:200px;
+    height:200px;    
+    display: block;
+    
+ }
+ a 
+ {
+   text-align: center;
+   color:magenta;
+   
  }
  #notforthisone
  {
@@ -29,11 +50,82 @@
     display: block;
     margin: auto;
  }
+ h2
+ {
+   font-family: Arvo-Bold;
+ color:rgb(10,180,18);
+ text-align: center;
+ }
  a:hover
  {
     background-color: gold;
  }
+ .son
+ {
+   margin:auto;
+   margin-left:200px;
+ }
+ .heropic:hover
+        {
+            background-color: red;
+        }
+ .bir
+ {
+   margin-bottom:10px;
+   margin-top:10px;
+ }
+ .logo
+ {
+   height:20vh;
+   width:25vw;
+ }
+ h3
+ {
+   text-align: center;
+ }
+ .fer
+ {
+   text-decoration:overline;
+ }
+ .fern
+ {
+   width:60vw;
+   height:75vh;
+   display:block;
+   margin-left: 125px;
+   margin-right:150px;
+ }
  h1
  {
  font-family: Arvo-Bold;
+ color:rgb(250,0,0);
+ text-align: center;
+ 
+ }
+ .This
+ {
+   text-decoration-skip-ink:auto;
+   text-decoration:underline;
+ }
+ li img
+ {
+   display:inline-block;
+   margin-left: 100px;
+   
+ }
+ li p
+ {
+   float: left;
+   margin-right:100px;
+   font-size:medium;
+   margin-top:10px;
+    margin-bottom:10px;
+ }
+ table
+ {
+   display:inline-table;
+   margin:50px;
+ }
+ h4{
+   text-align: center;
  }
