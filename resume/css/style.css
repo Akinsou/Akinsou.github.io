@@ -1,0 +1,75 @@
+@font-face
+{
+    font-family: "sserif";
+    src: url(fonts/Gruppo-Regular.ttf);
+}
+
+@font-face
+{
+    font-family: 'serif';
+    src: url(fonts/LibreBaskerville-Bold.ttf);
+}
+:root
+{
+  --UNC-Blue: #013c65;
+  --UNC-Gold: #f6b000;  
+}
+body
+{
+    background-color:var(--UNC-Gold);
+}
+*
+{
+    color: var(--UNC-Blue);
+    text-align: center;
+}
+h1
+{
+    font-size: 38px;
+    font-family: 'serif';
+    color: var(--UNC-Blue);
+}
+h2
+{
+    font-size: 18pt;
+    font-family: 'serif';
+    border: 5px var(--UNC-Blue) solid;
+    margin: 18vw;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+nav
+{
+    font-family: 'serif';
+}
+section
+{
+    border: 5px var(--UNC-Blue) double;
+    margin: 18vw;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+ul
+{
+    list-style:none;
+    padding-left: 0px;
+}
+table, th, td
+{
+    border-style: double;
+    border-color:black;
+    color:var(--UNC-Blue);
+    font-family:'serif';
+    font-size:12px;
+    
+}
+img{
+    width: 10vw;
+    height: 18vh;
+}
+li
+{
+    font-family:'serif';
+    font-size:15px;
+}
