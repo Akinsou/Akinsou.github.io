@@ -1,0 +1,122 @@
+#primary
+{
+    display:inline-block;
+    margin-top: 25px;
+    
+}
+:root
+{
+    background-color: #ffffff;
+    font-size:16px;
+}
+p{
+    display:inline-block;
+    margin-top:24px;
+    margin-bottom:24px;
+   
+}
+img{
+    background-color:#171717;
+}
+a
+{
+    display:inline-block;
+    color:#232378;
+}
+a:hover{
+color: orange;
+}
+nav
+{
+    
+    border: 1px rgb(200, 200, 200) solid;
+    text-align: center;
+    width: 92vh;
+    margin: auto;
+    background-color: rgba(26,175,255,.5);
+   
+}
+nav li
+{
+    list-style-type: none;
+    margin: 0px;
+}
+#floor{
+    width:50vw;
+    height:50vh;
+
+}
+h2{
+    text-align:center;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:50px;
+    text-decoration:underline;
+    color:rgb(0, 0, 0);
+    
+}
+.linkreturn
+{
+    text-align:center;
+}
+ol li{
+    display:inline;;
+    
+    color:white;
+    font-size:20px;
+    margin-bottom:0px;
+    background-color:#232378;
+
+}
+#eight{
+margin:auto;
+width:60vw;
+height:60vh;
+
+margin-right:20px;
+}
+#same
+{
+    height:40vh;
+    width:33vw;
+}
+.solo{
+    display:inline-flex;
+}
+.floor{
+    display:inline-flex;
+}
+video
+{
+    display:inline-block;
+    width:100vw;
+    height:60vh;
+}
+.over{
+    display:inline-flex;
+}
+.brand{
+    display:inline-flex;
+    font-size:16px;
+    width:100vw;
+}
+#sam{
+    width:25vw;
+}
+#over
+{
+    background-color:#232378;
+}
+#vsr
+{
+    color:white;
+}
+#location
+{
+    background-color:#C3E669;
+}
+#brands
+{
+    background-color:rgb(79, 79, 243);
+    color:white;
+}
