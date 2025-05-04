@@ -78,13 +78,15 @@ margin-right:20px;
     height:40vh;
     width:33vw;
 }
-span{
+.p{
     display:block;
-    margin-top:15px;
-    margin-bottom:15px;
-    margin-left:10px;
-    margin-right:10px;
+    margin-top:24px;
+    margin-bottom:24px;
+    background-color:#C3E669;
+    font-size:16px;
+    color: black;
 }
+
 #same1
 {
     height:40vh;
@@ -143,4 +145,7 @@ video
 {
     background-color:rgb(79, 79, 243);
     color:white;
+}
+#except{
+    margin-left:30px;
 }
