@@ -36,10 +36,8 @@ nav
     background-color: rgba(26,175,255,.5);
    
 }
-nav li
-{
-    list-style-type: none;
-    margin: 0px;
+nav a{
+    display:block;
 }
 #floor{
     width:50vw;
@@ -80,6 +78,16 @@ margin-right:20px;
     height:40vh;
     width:33vw;
 }
+#same1
+{
+    height:40vh;
+    width:33vw;
+}
+#same2
+{
+    height:40vh;
+    width:33vw;
+}
 .solo{
     display:inline-flex;
 }
@@ -101,6 +109,15 @@ video
     width:100vw;
 }
 #sam{
+    width:25vw;
+}
+#sam1{
+    width:25vw;
+}
+#sam2{
+    width:25vw;
+}
+#sam3{
     width:25vw;
 }
 #over
