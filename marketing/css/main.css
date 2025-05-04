@@ -78,6 +78,13 @@ margin-right:20px;
     height:40vh;
     width:33vw;
 }
+span{
+    display:block;
+    margin-top:15px;
+    margin-bottom:15px;
+    margin-left:10px;
+    margin-right:10px;
+}
 #same1
 {
     height:40vh;
